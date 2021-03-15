@@ -1,5 +1,6 @@
 public class S5 {
     public static void main(String[] args) {
+        //Zahlen in der Schleife als Dreieck ausgeben
         for (int zeile = 0; zeile <=9; zeile++) {
             for (int i = 0; i <= zeile; i++) {
                 System.out.print(i + " ");

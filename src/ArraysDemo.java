@@ -10,12 +10,13 @@ public class ArraysDemo {
         printArray(arr2);
 
     }
+    //Array Ausgeben mit , zwischen den Zahlen
     public static void printArray(int[] numbers){
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + ", ");
         }
     }
-
+    //Überprüfen ob eine Zahl im Array vorkommt
     public static boolean containsNumber(int[]numbers, int n){
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == n) {
@@ -24,7 +25,7 @@ public class ArraysDemo {
         }
         return false;
     }
-
+    //Summe des Arrays berechnen
     public static int calculateSum(int [] numbers){
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) { //foreach hätte auch auch funktioniert
@@ -33,7 +34,7 @@ public class ArraysDemo {
         System.out.println("sum = " + sum);
         return sum;
     }
-
+    //Array in umgekehrter Reihenfolge anlegen
     public static int[] reserve(int[] orginal){
         int [] arr2 = new int[orginal.length];
         for (int i = 0; i < orginal.length; i++) {

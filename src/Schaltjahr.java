@@ -1,5 +1,6 @@
 public class Schaltjahr {
     public static void main(String[] args) {
+        //Berechnen ob ein Jahr/Zahl ein Schaltjahr ist
         isLeapYear(1996);
         isLeapYear(1900);
         isLeapYear(2000);
