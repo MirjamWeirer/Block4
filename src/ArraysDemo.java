@@ -27,7 +27,7 @@ public class ArraysDemo {
 
     public static int calculateSum(int [] numbers){
         int sum = 0;
-        for (int i = 0; i < numbers.length; i++) { //foreach hätte auch auf funktioniert
+        for (int i = 0; i < numbers.length; i++) { //foreach hätte auch auch funktioniert
             sum = sum + numbers[i];
         }
         System.out.println("sum = " + sum);
