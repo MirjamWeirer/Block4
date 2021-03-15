@@ -3,20 +3,27 @@ public class Schaltjahr {
         isLeapYear(1996);
         isLeapYear(1900);
         isLeapYear(2000);
-       for (int i = 1; i <=2100 ; i++) {
-            isLeapYear(i);
-        }
-    }
-    public static void isLeapYear(int year){
 
+       int count = 0;
+       for (int i = 0; i <=2100 ; i++) {
+           if (isLeapYear(i)){
+               count++;
+           }
+        }
+        System.out.println("count " +count);
+    }
+    public static boolean isLeapYear(int year){
         if (year % 100 == 0) {
             if (year % 400 == 0){
                 System.out.println(year + " => Schaltjahr");
+                return true;
             }
         }else {
             if (year % 4 == 0) {
                 System.out.println(year + " => Schaltjahr");
+                return true;
             }
         }
+        return false;
     }
 }
