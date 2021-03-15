@@ -8,7 +8,7 @@ public class S5 {
         }
         String zeile = "";
         for (int i = 0; i <= 9 ; i++) {
-            zeile = zeile + i + " ";
+            zeile = zeile + i + " "; // Zeile ist ein String in der ersten Zeile steht O, beim 2 Durchlauf kommt die 1 dazu
             System.out.println(zeile);
         }
     }
