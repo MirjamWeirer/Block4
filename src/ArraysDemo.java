@@ -34,7 +34,7 @@ public class ArraysDemo {
         System.out.println("sum = " + sum);
         return sum;
     }
-    //Array in umgekehrter Reihenfolge anlegen
+    //Array in umgekehrter Reihenfolge ausgeben; mit neuem Array
     public static int[] reserve(int[] orginal){
         int [] arr2 = new int[orginal.length];
         for (int i = 0; i < orginal.length; i++) {
