@@ -1,4 +1,5 @@
 public class CurrencyExchangeDemo {
+    //Währungsumrechnung
     public static void main(String[] args) {
         System.out.println("exchangeCurrency(\"HUF\",12) = " + exchangeCurrency("HUF",12));
         System.out.println("exchangeCurrency(\"SEK\",100) = " + exchangeCurrency("SEK",100));
@@ -6,6 +7,7 @@ public class CurrencyExchangeDemo {
         System.out.println("exchangeCurrency(\"CAD\",200) = " + exchangeCurrency("CAD",200));
 
     }
+    //Strings werden nicht mit == sondern mit .equals verglichen
     public static double exchangeCurrency(String currencyID, double value){
         double result = 0;
             if (currencyID.equals("HUF")){
